@@ -16,3 +16,5 @@ class files (before being zipped) must be modified using the EEFixer application
 by going into the class files and making the changes instead of having to decompile everything.
 
 The EEFixer has a dependancy for the asm-all-4.0.jar which can be found at http://asm.ow2.org/.
+
+If you want the final binaries and do not wish to compile this then just send a request to kmcg3413 at gmail.com and I will provide you with the binaries.
