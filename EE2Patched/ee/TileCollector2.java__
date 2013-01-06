@@ -1,0 +1,29 @@
+package ee;
+
+import ee.core.GuiIds;
+import net.minecraft.server.mod_EE;
+import net.minecraft.server.EntityHuman;
+import net.minecraft.server.ItemStack;
+
+public class TileCollector2 extends TileCollectorBase {
+	
+	public TileCollector2() {
+		items = new ItemStack[15];
+	}
+	
+  @Override
+  public boolean onBlockActivated(EntityHuman var1)
+  {
+    if (!this.world.isStatic)
+    {
+      var1.openGui(mod_EE.getInstance(), GuiIds.COLLECTOR_2, this.world, this.x, this.y, this.z);
+    }
+    
+    return true;
+  }
+  
+  public double getFactoredProductionScaler() {
+	  return 8.0d;
+  }
+
+}

@@ -1,0 +1,8 @@
+name: KEE2Helper
+version: 1.0.134
+main: com.kmcguire.KEE2Helper.P
+authors: [Leonard Kevin McGuire Jr]
+softdepend: []
+commands:
+    ee2h:
+      description: The interface to the KEE2Helper plugin.

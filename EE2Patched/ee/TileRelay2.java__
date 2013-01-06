@@ -1,0 +1,23 @@
+package ee;
+
+import ee.core.GuiIds;
+import net.minecraft.server.mod_EE;
+import net.minecraft.server.EntityHuman;
+import net.minecraft.server.ItemStack;
+
+public class TileRelay2 extends TileRelayBase {
+  public TileRelay2() {
+	  items = new ItemStack[14];
+	  this.klein = (this.items.length - 1);
+  }
+	
+  public boolean onBlockActivated(EntityHuman var1)
+  {
+    if (!this.world.isStatic)
+    {
+      var1.openGui(mod_EE.getInstance(), GuiIds.RELAY_2, this.world, this.x, this.y, this.z);
+    }
+
+    return true;
+  }
+}

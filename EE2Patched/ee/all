@@ -1,0 +1,8 @@
+THIS IS PERFORMED ON ALL CLASS FILES IN THIS DIRETORY, THUS HOOKING ANY AND ALL
+CALLS TO CHANGE BLOCKS IN THE WORLD IF THEY ARE NOT ALREADY HOOKED BY HAND THUS
+MAKING EE2 PLAY WITH BLOCK PROTECTION SYSTEMS
+
+//@@mir:*:damageEntity:*:ee/BigWorldHook:damageEntityHooked:(Lnet/minecraft/server/Entity;Lnet/minecraft/server/DamageSource;I)Z:1
+//@@mir:*:setTypeId:*:ee/BigWorldHook:setTypeIdHooked:(Lnet/minecraft/server/World;IIII)Z:1
+//@@mir:*:setTypeIdAndData:*:ee/BigWorldHook:setTypeIdAndDataHooked:(Lnet/minecraft/server/World;IIIII)Z:1
+
