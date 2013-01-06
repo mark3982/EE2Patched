@@ -1,1 +1,1 @@
-java -jar ..\..\..\..\EEFixer\dist\EEFixer.jar .\ee\
+java -jar ..\EEFixer\dist\EEFixer.jar .\ee\

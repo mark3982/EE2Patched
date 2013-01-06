@@ -12,7 +12,7 @@ import net.minecraft.server.World;
 
 //@@mcopy:getStrVsBlock:*
 //@@mcopy:canDestroySpecialBlock:*
-//@@mir:*:getDestroySpeed:*:ee/ItemToolLow:getDestroySpeed:*
+//IGNORE @@mir:*:getDestroySpeed:*:ee/ItemToolLow:getDestroySpeed:*
 
 public class ItemRedAxe extends ItemToolHigh
 {

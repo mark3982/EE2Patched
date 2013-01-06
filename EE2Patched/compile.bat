@@ -1,2 +1,2 @@
-javac -source 1.6 -target 1.6 -cp "..\..\..\..\KFactions\dist\KFactions.jar;plugins\KFactions.jar;.;..\..\craftbukkit\;..\CodeChickenCore-Bukkit 0.5.3r3.zip" -Xlint:none .\net\minecraft\server\*.java
-javac -source 1.6 -target 1.6 -cp "..\..\..\..\KFactions\dist\KFactions.jar;plugins\KFactions.jar;.;..\..\craftbukkit\;..\CodeChickenCore-Bukkit 0.5.3r3.zip" -Xlint:none .\ee\*.java
+javac -source 1.6 -target 1.6 -cp ".;..\..\nemmie\minecraft\craftbukkit" -Xlint:none .\net\minecraft\server\*.java
+javac -source 1.6 -target 1.6 -cp ".;..\..\nemmie\minecraft\craftbukkit" -Xlint:none .\ee\*.java
